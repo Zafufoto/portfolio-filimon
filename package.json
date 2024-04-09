@@ -10,4 +10,10 @@
     "react-multi-carousel": "^2.8.5",
     "react-on-screen": "^2.1.1"
   }
+  ,"scripts": {
+    "start":"react-scripts filimon/start", 
+    "build": "react-scripts filimon/build",
+    "test": "react-scripts  filimon/test",
+    "eject": "react-scripts filimon/eject"
+  }
 }
