@@ -22,7 +22,7 @@ function Banner() {
     return () => {
       clearInterval(ticker);
     };
-  }, [text]);
+  }, [text, delta]);
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -48,6 +48,7 @@ function Banner() {
       setDelta(500);
     } else {
       setIndex((prevIndex) => prevIndex + 1);
+      console.log(index);
     }
   };
   return (
