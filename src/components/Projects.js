@@ -56,9 +56,9 @@ function Projects() {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
-                          })}
+                        {projects.map((project, index) => {
+                          return <ProjectCard key={index} {...project} />;
+                        })}
                         </Row>
                       </Tab.Pane>
                     </Tab.Content>

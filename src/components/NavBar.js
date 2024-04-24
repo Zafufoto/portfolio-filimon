@@ -82,13 +82,13 @@ const NavBar = () => {
 
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/abenezer-tesfaye/">
+                <a href="https://linkedin.com/filimon-okubat/">
                   <img src={navIcon1} alt="" />
                 </a>
-                <a href="https://github.com/kecheste">
+                <a href=" ">
                   <img src={navIcon2} alt="" />
                 </a>
-                <a href="https://instagram.com/kecheste11">
+                <a href=" ">
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
